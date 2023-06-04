@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        ul.menu {
+            width: 60%;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        ul.menu li {
+            float: left;
+            border-right: 1px solid blue;
+        }
+        ul.menu li:first-child {
+            background-color: rgb(135, 135, 135);
+        }
+        ul.menu li:not(:first-child) {
+            background-color: #cbc7c7;
+        }
+        ul.menu li a {
+            color: #ffffff;
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Horizontal Navigation Bar</h1>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">BootStrap</a></li>
+        </ul>
+    </body>
+</html>
